@@ -1,0 +1,19 @@
+body {
+    background-color: blanchedalmond;
+}
+
+#event-bubble-level-one{
+    padding: 25px;
+    background-color: red;
+    cursor: pointer;
+}
+#event-bubble-level-two{
+    padding: 25px;
+    background-color: orange;
+    cursor: pointer;
+}
+#event-bubble-level-three{
+    padding: 25px;
+    background-color:green;
+    cursor: pointer;
+}
