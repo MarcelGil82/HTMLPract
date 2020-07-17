@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+</head>
+
+<body>
+    <h1>Student List</h1>
+    <a href="/students/register.html">Register Student</a>
+    <table>
+        <thead>
+            <tr>
+                <th>Full Name</th>
+                <th>Date Of Birth</th>
+                <th>Interest</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each students}}
+            <tr>
+                <td>{{ this.firstName }} {{ this.lastName }}</td>
+                <td>{{ this.dob }}</td>
+                <td>{{ this.interest }}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</body>
+
+</html>
