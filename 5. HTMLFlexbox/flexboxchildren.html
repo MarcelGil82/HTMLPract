@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Child</title>
+    <link rel="stylesheet" type="text/css" href="flexchildrenstyles.css" />
+</head>
+<body>
+    <h1>Properties for the Children</h1>
+    <h2>Flexbox Display</h2>
+    <flex-containerchild>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div> 
+        <div>4</div>
+    </flex-containerchild> 
+
+    <h2>Flexbox Order</h2>
+    <p>By default, flex items are laid out in the source order.</p>
+    <flex-order>
+        <div style="order: 4">1</div>
+        <div style="order: 1">2</div>
+        <div style="order: 2">3</div> 
+        <div style="order: 3">4</div>
+    </flex-order> 
+
+    <h2>Flexbox Grow</h2>
+    <p>This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+    <flex-order>
+        <div style="flex-grow: 1">1</div>
+        <div style="flex-grow: 3">2</div>
+        <div style="flex-grow: 1">3</div> 
+        <div style="flex-grow: 2">4</div>
+    </flex-order> 
+
+    <h2>Flexbox Shrink</h2>
+    <p>This defines the ability for a flex item to shrink if necessary.</p>
+    <flex-shrink>
+        <div>1</div>
+        <div style="flex-shrink: 5">2</div>
+        <div>3</div>
+        <div style="flex-shrink: 0">4</div> 
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </flex-shrink> 
+
+    <h2>Flexbox Basis</h2>
+    <p>This defines the default size of an element before the remaining space is distributed.</p>
+    <flex-basis>
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-basis: 200px">3</div>
+        <div>4</div> 
+    </flex-basis> 
+
+    <h2>Flexbox Flex</h2>
+    <p>This defines the default size of an element before the remaining space is distributed.</p>
+    <flex>
+        <div>1</div>
+        <div style="flex: 0 0 200px">2</div>
+        <div>3</div>
+        <div>4</div> 
+    </flex> 
+
+    <h2>Flexbox Align-Self</h2>
+    <p>This defines the default size of an element before the remaining space is distributed.</p>
+    <align-self>
+        <div>1</div>
+        <div style="align-self: center;">2</div>
+        <div>3</div>
+        <div style="align-self: flex-start;">4</div> 
+        <div>5</div>
+        <div style="align-self: flex-end;">6</div>
+        <div>7</div>
+    </align-self> 
+
+    <br>
+    <a href="index.html">Click to go to Home Page</a>
+</body>
+</html>

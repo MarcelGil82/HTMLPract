@@ -1,0 +1,109 @@
+flex-containerchild {
+    display: flex;
+    background-color: silver;
+}
+  
+flex-containerchild > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+flex-order {
+    display: flex;
+    background-color: silver;
+}
+  
+flex-order > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+flex-grow {
+    display: flex;
+    background-color: silver;
+}
+  
+flex-grow > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+flex-shrink {
+    display: flex;
+    align-items: stretch;
+    background-color: silver;
+}
+  
+flex-shrink > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 30px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+flex-basis {
+    display: flex;
+    align-items: stretch;
+    background-color: silver;
+}
+  
+flex-basis > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+flex {
+    display: flex;
+    align-items: stretch;
+    background-color: silver;
+}
+  
+flex > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+align-self {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    background-color: silver;
+}
+  
+align-self > div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

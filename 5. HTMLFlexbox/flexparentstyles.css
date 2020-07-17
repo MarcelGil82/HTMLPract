@@ -1,0 +1,105 @@
+flex-container {
+    /*display: flex;*/
+    display:inline-flex;
+    background-color: aqua;
+}
+flex-container > div {
+    background-color: white;
+    width: 100px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+flex-direction {
+    display: flex;
+    flex-direction: column;
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row;*/
+    /*flex-direction: row-reverse;*/
+    background-color: aqua ;
+}
+
+flex-direction > div{
+    background-color: white;
+    width: 100px;
+    margin: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+flex-wrap {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap-reverse;
+    background-color: aqua;
+}
+
+flex-wrap > div{
+    background-color: white;
+    width: 100px;
+    margin: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+justify {
+    display: flex;
+    /*justify-content: flex-start;
+    /*justify-content: flex-end;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+justify > div{
+    background-color: white;
+    width: 100px;
+    margin: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+align {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-between;*/
+    /*align-content: space-around;*/
+    /*align-content: stretch;*/
+    background-color: aqua;
+}
+
+align > div {
+    background-color: white;
+    width: 100px;
+    margin: 20px;
+    text-align: left;
+    font-size: 30px;
+}
+
+alignitem {
+    display: flex;
+    height: 200px;
+    flex-wrap: wrap;
+    /*align-items: flex-start;*/
+    /*align-items: flex-end;*/
+    /*align-items: center;*/
+    /*align-items: stretch;*/
+    align-items: baseline;
+    background-color: aqua;
+}
+
+alignitem > div {
+    background-color: white;
+    width: 100px;
+    margin: 20px;
+    text-align: left;
+    font-size: 30px;
+}
