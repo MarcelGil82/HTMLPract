@@ -1,0 +1,19 @@
+/* External Styling Rules for website.
+CSS Class to style the banner in the html document*/
+
+/* class selector*/
+.banner {
+    background-color: brown;
+}
+/* name/element selector */
+body{
+    background-color: silver;
+}
+span{
+    font-size: 10px;
+    color: green;
+}
+/*  id selector */
+#my-div{
+    background-color: purple;
+}

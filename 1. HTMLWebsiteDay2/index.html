@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External-->
+    <!-- style rules on general (prority 3)-->
+    <link rel="stylesheet" type="text/css" href="mystyle.css" /> <!-- External link-->
+    <!-- Internal -->
+    <!-- override a style rule on the document level (prority 2)-->
+    <style>
+        .cities {
+            background-color: green;
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Inline -->
+
+    <div class="banner">
+        <h1>Day 2 Website</h1>
+    </div>
+
+    <div id="my-div"> this is my div with the id "my-div"</div>
+
+    <div class="cities">
+        This div is styled using internal css (style tags [element] in the head of the html document)
+    </div>
+    <!-- (prority 1)-->
+    <div style="background-color: aqua; color: black;">
+        This div is styled to use inline css(html style attribute</div>
+
+    <div class="cities" style="color: black;">
+        This div is another styled using internal css (style tags [element] in the head of the html document)
+    </div>
+    <span>This is a span.</span>
+
+</body>
+
+</html>
