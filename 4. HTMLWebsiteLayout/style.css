@@ -1,0 +1,87 @@
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.content {
+    width:66.6%;
+    float: left;
+    height: 300px;
+}
+
+section, article{
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 5px
+}
+/* can place above with separated comma as they are the same rules
+article{
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 5px  
+} */
+
+aside{
+    width: 33.3%;
+    float: right;
+    background-color: lightgray;
+    height: 300px;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: darkslategray;
+    color:#fff;
+    padding:5px;
+    text-align: center;
+    clear:both;
+}
+/* navigation Menu links */
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #000;
+}
+
+/* 0px to 650px apply these rules*/
+@media screen and (max-width:650px) {
+    body {
+        background-color: lightgreen;
+    }
+    .content, aside{
+        widows: 100%;
+        float: none;
+        height: auto;
+    }
+    header p {
+        display: block;
+    }
+}
+/* 650px or higher apply these rules*/
+@media screen and (min-width:650px) {
+    header p {
+        display: none;
+    }
+}
